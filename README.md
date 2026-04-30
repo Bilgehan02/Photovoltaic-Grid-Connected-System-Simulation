@@ -47,14 +47,16 @@ This project simulates the entire energy conversion chain from solar panels to g
 - Automated calibration using `fmincon`
 - I-V and P-V characteristic curves
 
-![PV Curves](images/pv_curves.png)
+<img width="856" height="557" alt="image" src="https://github.com/user-attachments/assets/c2413bf0-3d07-4d13-b477-a235f980330b" />
+
 
 ### Module 2: MPPT Controller
 - Perturb & Observe algorithm
 - Dynamic irradiance response
 - 99.45% tracking efficiency
 
-![MPPT Performance](images/mppt.png)
+<img width="869" height="547" alt="image" src="https://github.com/user-attachments/assets/fc28af88-1f6e-4dcd-85b0-120242e5ae4f" />
+
 
 ### Module 3: Series Configuration
 - 13 × 250W panels in series
@@ -64,21 +66,20 @@ This project simulates the entire energy conversion chain from solar panels to g
 - Average-value inverter model
 - 400V DC → 311V AC conversion
 
-![Inverter Output](images/inverter.png)
+<img width="1280" height="551" alt="image" src="https://github.com/user-attachments/assets/fdbbb016-fc27-4c22-a6bb-06c18233d2e1" />
+
 
 ### Module 5: Step-Up Transformer
 - 311V → 400V transformation
 - Galvanic isolation
 - Yn/Yn configuration
 
-![Transformer Output](images/transformer.png)
 
 ### Module 6: THD Analysis
 - FFT-based harmonic analysis
 - Hanning windowing for spectral leakage reduction
 - IEEE 519 compliance verification
 
-![THD Spectrum](images/thd.png)
 
 ---
 
