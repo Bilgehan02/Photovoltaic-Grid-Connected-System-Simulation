@@ -107,3 +107,49 @@ Required toolboxes: Simulink, Simscape Electrical, Optimization
 
 ### Why 13 Panels in Series?
 Real-world grid-tied PV systems avoid boost converters by configuring panels to match inverter DC bus requirements directly:
+
+13 × 30.6V = 397.8V ≈ 400V DC bus
+
+### THD Optimization
+Initial THD was high due to:
+- Low FFT resolution (short simulation time)
+- Spectral leakage
+
+Solution:
+- Extended simulation to 0.5s (2512 samples)
+- Applied Hanning window
+- Result: 3.145% THD ✅
+
+---
+
+## 🎓 Learning Outcomes
+
+- System-level renewable energy design
+- Control algorithm implementation (MPPT)
+- Power electronics modeling
+- Grid code compliance (IEEE 519)
+- Multi-toolbox MATLAB workflow
+
+---
+
+## 📄 License
+
+MIT License - Feel free to use for educational purposes
+
+---
+
+## 👤 Author
+
+[Your Name]
+Electrical & Electronics Engineering Student
+[University Name]
+
+**Project Duration**: [Start Date] - [End Date]
+
+---
+
+## 🙏 Acknowledgments
+
+- Jinko Solar for panel specifications
+- IEEE 519 standard for THD guidelines
+- MathWorks documentation
