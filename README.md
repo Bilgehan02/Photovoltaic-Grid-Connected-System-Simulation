@@ -140,11 +140,11 @@ MIT License - Feel free to use for educational purposes
 
 ## 👤 Author
 
-[Your Name]
+Bilgehan HOP
 Electrical & Electronics Engineering Student
-[University Name]
+Sakarya Üniversitesi
 
-**Project Duration**: [Start Date] - [End Date]
+**Project Duration**: 28/04/2026 - 30/04/2026
 
 ---
 
